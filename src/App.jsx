@@ -1,7 +1,9 @@
 function App() {
   return (
-    <div className="bg-blue-300 place-content-center min-h-screen">
-      <h1 className="text-3xl underline text-center">Hello world!</h1>
+    <div className="bg-slate-900 place-content-center grid min-h-screen">
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        Sign up
+      </button>
     </div>
   );
 }
