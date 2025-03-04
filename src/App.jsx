@@ -1,9 +1,21 @@
+import { IconBrandTwitter } from "@tabler/icons-react";
 function App() {
+  // insert image pakai lib ini
+  // npm install @tabler/icons-react --save
   return (
     <div className="bg-slate-900 place-content-center grid min-h-screen">
       <div className="flex gap-x-2">
         <Button text="register" />
-        <Button text="login" />
+        <Button
+          text={
+            <>
+              <div className="flex gap-x-2">
+                <IconBrandTwitter />
+                Login
+              </div>
+            </>
+          }
+        />
       </div>
     </div>
   );
